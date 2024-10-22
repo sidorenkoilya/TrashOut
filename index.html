@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вивіз сміття</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h1>Заявка на вивіз сміття</h1>
+            <form id="contactForm">
+                <label for="name">Ваше ім'я:</label>
+                <input type="text" id="name" required>
+                <label for="phone">Ваш телефон:</label>
+                <input type="tel" id="phone" value="+380638122604" required>
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" required></textarea>
+                <button type="submit">Надіслати заявку</button>
+            </form>
+        </div>
+    </div>
+
+    <a href="tel:+380638122604" class="call-button">Зателефонувати</a>
+
+    <script src="scripts.js"></script> <!-- Підключення JavaScript файлу -->
+</body>
+</html>
